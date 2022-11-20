@@ -8,6 +8,10 @@ const hbs = exphbs.create({helpers});
 const session = require('express-session');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
+
+const PORT = process.env.PORT || 3001;
+const app = express();  
+
 const sess = {
     secret: "super super secret",
     cookie: { originalMaxAge: 600000 },
@@ -19,8 +23,7 @@ const sess = {
 };
 
 
-const app = express();
-const PORT = process.env.PORT || 3001;
+
 
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
