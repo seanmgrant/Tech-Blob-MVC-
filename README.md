@@ -7,9 +7,9 @@ This is MVC application and uses Handlebars.js.
 
 
 ## Installation
-Run mysql -uroot
-npm i
-npm start
+Run mysql -uroot   
+npm i  
+npm start  
 
 
 
@@ -21,8 +21,8 @@ npm start
 
 
 ## Tech Stack 
-node.js
-Express.js
-Sequelize 
-Mysql2
-JavaScript 
+node.js  
+Express.js  
+Sequelize    
+Mysql2  
+JavaScript   
